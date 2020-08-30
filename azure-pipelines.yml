@@ -10,6 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: docker version
-  displayName: 'Run a one-line script'
+- task: CmdLine@2
+  inputs:
+    script: 'docker run hello-world'
 
