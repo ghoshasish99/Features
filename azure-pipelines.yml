@@ -12,5 +12,5 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'docker run ghoshasish99/cits-test:v1'
+    script: 'docker run ghoshasish99/cits-test:v2'
 
