@@ -12,9 +12,5 @@ services:
     environment:
       - HUB_HOST=selenium-hub
       - HUB_PORT=4444      
-  automation:
-    image: ghoshasish99/cits-test:v3
-    container_name: automation-test
-    depends_on:
-      - chrome
+
     
